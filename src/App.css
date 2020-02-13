@@ -12,11 +12,12 @@
   display: flex;
   justify-content: space-around;
 }
-.nav-list {
-  /*padding: 40px;*/
+.container {
+  font-size: larger;
+  justify-content: center;
+  padding: 40px;
   font-weight: 500;
   white-space: nowrap;
-  line-height: 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -25,7 +26,7 @@
   display: flex;
   flex-direction: column;
 }
-.menu {
+.kjh {
   display: none;
   top: 55px;
   width: 50%;
@@ -37,6 +38,11 @@
   margin: 20px;
   left: 650px;
   line-height: 1;
+}
+
+.btn {
+  color: blue;
+  border-radius: 10px;
 }
 
 @keyframes App-logo-spin {
